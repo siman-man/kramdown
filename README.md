@@ -43,7 +43,7 @@ For information about changes between versions, have a look at
 kramdown has a very simple API, so using kramdown is as easy as
 
 ```ruby
-require 'kramdown'
+require "kramdown"
 
 Kramdown::Document.new(text).to_html
 ```
